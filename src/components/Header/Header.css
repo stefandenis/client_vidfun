@@ -1,0 +1,51 @@
+i.Header-user-icon:hover{
+
+    color: white;
+
+}
+
+.Header-box{
+    position:relative;
+}
+
+.Header-user-dropdown{
+    padding-right: 7px;
+   
+    
+}
+
+i.Header-user-carret-down:hover{
+    color:white;
+}
+
+.Header-dropdown {
+    background-color:#2c3e50;
+    border-style:solid;
+    border-width:1px;
+    position:absolute; 
+    padding: 2px;
+    margin-top:5px;
+    display: none;
+
+
+    
+    
+}
+
+.Header-hr {
+    margin:auto;
+    width:95%;
+    border: 0.3px solid#95a5a6;
+    margin-top: 2px;
+}
+
+.Header-user-option{
+
+}
+
+.Header-user-option:hover{
+
+    color:white;
+    
+
+}

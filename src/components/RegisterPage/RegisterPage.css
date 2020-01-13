@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+#logo {
+  float: none;
+}
+
+.RegisterPage {
+  background: #2c3e50;
+  height:100%
+}
+
+.RegisterPage-register-header {
+  align-items: center;
+  justify-content: center;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.RegisterPage-register-header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#RegisterPage-delimiter-register {
+  width: 90%;
+  margin: 0 auto;
+  border: 0.3px solid#95a5a6;
+}
+label {
+  font-size: 20px;
+}
+
+.RegisterPage-register-fields {
+  display: block;
+  width: 500px;
+  outline: none;
+  border: none;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin: 10px 0 10px 0;
+}
+::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+.RegisterPage-register-fields:focus {
+  outline: none;
+}
+
+.RegisterPage-icon  {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  transition: font-size 0.3s ease-in-out;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+i.RegisterPage-icon:hover {
+  font-size: 20px;
+}
+
+.RegisterPage-social-login {
+  text-decoration: none;
+  display: block;
+  background-color: #3b5998;
+  margin: 20px 60px 20px 60px;
+  border-radius: 3px;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  position: relative;
+}
+
+.RegisterPage-form-register-container {
+  background-color: #7f8fa6;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 4px;
+}
+
+.RegisterPage-register-btn {
+  background-color: #c0392b;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.RegisterPage-register-btn:hover {
+  background-color: #f1c40f;
+}
+
+.RegisterPage-register-btn:active {
+  transform: scale(0.96, 0.96);
+}
